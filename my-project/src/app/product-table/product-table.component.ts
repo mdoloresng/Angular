@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./product-table.component.css']
 })
 export class ProductTableComponent {
+  filterProduct = '';
   products: any = [
     { id: 1, 
       name: "diamond",

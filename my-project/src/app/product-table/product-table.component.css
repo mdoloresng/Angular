@@ -1,0 +1,13 @@
+input {
+    margin-right: 10px;
+}
+
+tr, td {
+    border: 1px solid;
+}
+
+td {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    padding: 5px;
+}
