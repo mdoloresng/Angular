@@ -1,0 +1,16 @@
+<input type="text" placeholder="Search" name="filterProduct" [(ngModel)]="filterProduct">
+
+<tbody>
+    <tr>
+        <td>Id</td>
+        <td>Name</td>
+        <td>Category</td>
+        <td>Price</td>
+    </tr>
+    <tr *ngFor="let product of products | filter: filterProduct">
+        <td> {{product.id}}</td>
+        <td> {{product.name}}</td>
+        <td> {{product.category}}</td>
+        <td> {{product.price}}</td>
+    </tr>
+</tbody>
